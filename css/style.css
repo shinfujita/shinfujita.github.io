@@ -673,7 +673,7 @@ a.homeBtn:hover::before {
     line-height: 6.5rem;
     color: #333333;
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
   }
   p.topCopy {
@@ -740,7 +740,7 @@ a.homeBtn:hover::before {
     height: 54px;
     background: url(../img/home_main_c.svg) center center no-repeat;
     animation-name: imgAnimation1;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
   }
   
@@ -754,7 +754,7 @@ a.homeBtn:hover::before {
     /* transform: translateY(-50%); */
     background: url(../img/home_main_b.svg) center center no-repeat;
     animation-name: imgAnimation2;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
 }
   
@@ -768,7 +768,7 @@ a.homeBtn:hover::before {
     transform: translateY(-200px);
     background: url(../img/home_main_a.svg) center center no-repeat;
     animation-name: imgAnimation3;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
 }
   
