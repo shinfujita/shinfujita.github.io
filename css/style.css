@@ -697,7 +697,11 @@ a.homeBtn:hover::before {
     transform: translateY(-50%) translateX(-50%);
     background: url(../img/home_main.svg) center center no-repeat;
     animation-name: imgAnimation4;
+<<<<<<< HEAD
     animation-duration: 5s;
+=======
+    animation-duration: 1s;
+>>>>>>> master-test
     animation-iteration-count: 1;
   }
   .headImg_base:hover {
