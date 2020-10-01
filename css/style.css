@@ -77,12 +77,12 @@ body {
   section {
     position: relative;
     width: 100vw;
-    height: calc(100vh - 50px);
+    height: calc(100vh + 50px);
     padding-top: 50px;
   }
-  section#home {
+  /* section#home {
     height: calc((100vh - 50px) + 50px);
-  }
+  } */
   section#worksBox {
     height: auto;
   }
@@ -669,8 +669,8 @@ a.homeBtn:hover::before {
 
   h1 {
     font-weight: 600;
-    font-size: 8rem;
-    line-height: 7rem;
+    font-size: 7.5rem;
+    line-height: 6.5rem;
     color: #333333;
     animation-name: fadein;
     animation-duration: 2s;
@@ -692,8 +692,8 @@ a.homeBtn:hover::before {
     top: 20%;
     left: 50%;
     z-index: -52;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     transform: translateY(-50%) translateX(-50%);
     background: url(../img/home_main.svg) center center no-repeat;
     animation-name: imgAnimation4;
