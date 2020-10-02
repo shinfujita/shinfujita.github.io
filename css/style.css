@@ -1233,7 +1233,7 @@ svg circle.cr4 {
   left: 0;
   z-index: 100;
   background-color: #333333;
-  opacity: 0.95;
+  opacity: 1;
 }
 .modal1 > .modalClose1,
 .modal2 > .modalClose2,
