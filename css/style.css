@@ -1242,8 +1242,8 @@ svg circle.cr4 {
 .modal5 > .modalClose5 {
   position: relative;
   display: inline-block;
-  width: 41px;
-  height: 41px;
+  width: 31px;
+  height: 31px;
   margin: 20px 20px 0 0;
   background-color: none;
   cursor: pointer;
@@ -1256,10 +1256,10 @@ svg circle.cr4 {
 .modal5 > .modalClose5::before {
   content: "";
   position: absolute;
-  width: 36px;
+  width: 28px;
   height: 1px;
-  top: 19px;
-  left: 2px;
+  top: 14px;
+  left: 1px;
   transform: rotate(45deg);
   background-color: white;
   transition: all .4s;
@@ -1271,10 +1271,10 @@ svg circle.cr4 {
 .modal5 > .modalClose5::after {
   content: "";
   position: absolute;
-  width: 36px;
+  width: 28px;
   height: 1px;
-  top: 19px;
-  left: 2px;
+  top: 14px;
+  left: 1px;
   transform: rotate(-45deg);
   background-color: white;
   transition: all .4s;
