@@ -6,14 +6,12 @@ const closeNav = document.querySelector('.closeNav');
 
 humberger.addEventListener('click', () => {
     body.classList.toggle('navOpen');
-    console.log('the moon is a harsh mistress');
 }, false);
 
 console.log(closeNav[0]);
 
 closeNav.addEventListener('click', () => {
     body.classList.remove('navOpen');
-    console.log('fuck');
 }, false);
 
 
@@ -74,7 +72,6 @@ prevBtn.addEventListener('click', function() {
     innerInfo[current].classList.toggle('selected', 'appear');
     if (current === 2) {
         prevCurrent = current - 2;
-        // nextBtn.classList.toggle('erase');
     } else {
         prevCurrent = current + 1;
     }
@@ -92,7 +89,6 @@ nextBtn.addEventListener('click', function() {
     innerInfo[current].classList.toggle('selected', 'appear');
     if (current === 0) {
         nextCurrent = current + 2;
-        // prevBtn.classList.toggle('erase');
     } else {
         nextCurrent = current - 1;
     }
@@ -131,63 +127,53 @@ const modalClose5 = document.querySelector('.modalClose5');
 workBTN1.addEventListener('click', () => {
     modal1.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('It\'s Full of Stars');
 }, false);
 
 modalClose1.addEventListener('click', () => {
     modal1.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('This is the end.');
 }, false);
 
 // btn2
 workBTN2.addEventListener('click', () => {
     modal2.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('It\'s Full of Stars');
 }, false);
 
 modalClose2.addEventListener('click', () => {
     modal2.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('This is the end.');
 }, false);
 
 // btn3
 workBTN3.addEventListener('click', () => {
     modal3.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('It\'s Full of Stars');
 }, false);
 
 modalClose3.addEventListener('click', () => {
     modal3.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('This is the end.');
 }, false);
 
 // btn4
 workBTN4.addEventListener('click', () => {
     modal4.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('It\'s Full of Stars');
 }, false);
 
 modalClose4.addEventListener('click', () => {
     modal4.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('This is the end.');
 }, false);
 
 // btn5
 workBTN5.addEventListener('click', () => {
     modal5.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('It\'s Full of Stars');
 }, false);
 
 modalClose5.addEventListener('click', () => {
     modal5.classList.toggle('modalOpen');
     body.classList.toggle('fixed');
-    console.log('This is the end.');
 }, false);
