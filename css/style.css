@@ -216,10 +216,12 @@ body {
     position: relative;
     width: 100vw;
     height: calc(100vh - 50px);
+    min-height: 700px;
     padding-top: 50px;
   }
   section#home {
     height: calc(100vh + 150px);
+    max-height: 800px;
   }
   
   section#worksBox {
