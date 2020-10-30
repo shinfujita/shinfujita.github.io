@@ -219,7 +219,7 @@ body {
     padding-top: 50px;
   }
   section#home {
-    height: calc(100vh + 100px);
+    height: calc(100vh + 150px);
   }
   
   section#worksBox {
@@ -230,7 +230,7 @@ body {
     position: relative;
     width: 620px;
     height: 660px;
-    margin-top: 75px;
+    margin-top: 25px;
   }
   
   .contentsWrapper.homeCon {
