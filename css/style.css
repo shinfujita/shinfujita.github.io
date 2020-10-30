@@ -219,7 +219,7 @@ body {
     padding-top: 50px;
   }
   section#home {
-    height: calc((100vh - 50px) + 50px);
+    height: calc(100vh + 100px);
   }
   
   section#worksBox {
