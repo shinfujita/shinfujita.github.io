@@ -218,6 +218,7 @@ body {
     height: calc(100vh - 50px);
     min-height: 700px;
     padding-top: 50px;
+    margin-top: 50px;
   }
   section#home {
     height: calc(100vh + 150px);
