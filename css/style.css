@@ -1483,6 +1483,7 @@ svg circle.cr4 {
   .resumeImg {
     min-width: 90vw;
     height: auto;
+    margin-top: 10px;
   }
   .resumeImg img {
     background-color: #333333;
