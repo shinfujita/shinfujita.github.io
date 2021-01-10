@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>shinfujita | portfolio_2020</title>
+    <meta content="Shin Fujitaの就活用のポートフォリオサイトです" name="description">
+    <meta property="og:title" content="shinfujita | portfolio_2020" />
+    <meta property="og:url" content="https://shinfujita.github.io/index.html" />
+    <meta property="og:image" content="https://shinfujita.github.io/img/top_ogimg.jpg" />
+    <meta property="og:site_name" content="shinfujita | portfolio_2020" />
+    <meta property="og:description" content="ページのディスクリプション" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gap.css">
+
+    <script type="text/javascript">
+        // smartphone
+        if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+          location.href = './sp.html';
+        }
+    </script>
+    <script src="https://shinfujita.github.io/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159951141-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-159951141-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+<body id=”skrollr-body”>
+    <header>
+        <nav class="clear">
+            <div id="humberger" class="right">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p class="memuHome left">
+                <a href="" class="homeBtn">home</a>
+            </p>
+            <ul class="menuList right closeNav">
+                <li class="menuItem">
+                    <a href="#aboutBox" class="menuBtn about">about</a>
+                </li>
+                <li class="menuItem">
+                    <a href="#skillsBox" class="menuBtn skills">skills</a>
+                </li>
+                <li class="menuItem">
+                    <a href="#worksBox" class="menuBtn works">works</a>
+                </li>
+                <li class="menuItem">
+                    <a href="#contactBox" class="menuBtn contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="contentsWrapper homeCon">
+            <div id="headCopy">
+                <h1>Hi, I am<br>
+                    Shin Fujita</h1>
+                <p class="topCopy">Web designer / Web director / Graphic designer</p>
+            </div>
+            <div class="headImg_c"></div>
+            <div class="headImg_b"></div>
+            <div class="headImg_a"></div>
+            <div class="headImg_base"></div>
+        </div>
+    </section>
+
+    <section id="aboutBox">
+        <div class="contentsWrapper flex aboutCon">
+            <div id="myImage" data-0-bottom-top="transform:translate(-300px,0px) rotate(350deg); opacity:0;" data--20p-bottom-bottom="transform:translate(0px,0px) rotate(0deg); opacity:1;"></div>
+            <div id="myInfo">
+                <div id="about1" class="innerInfo selected">
+                    <h2>SHIN FUJITA</h2>
+                    <p class="profile">初めまして、藤田　伸です。<br>
+                    6年ほど前からWEBを中心に仕事をしています。直近の職場では3年間、企業サイトのニュースリリースのディレクションをしていました。<br>
+                    <br>
+                    趣味はプログラムの新しい知識をインプットすることと、Tシャツ作り（デザイン）、トレーニング、料理です。<br>
+                    <br>
+                    いつか趣味の料理のように段取りよく、楽しくプログラミングができるようになるのが夢です。</p>
+                </div>
+                <div id="about2" class="innerInfo">
+                    <h2>HISTRY</h2>
+                    <p class="profile">WEBの仕事は父の介護のために、移住先である小笠原の父島から東京に戻ってきた時から始めました。<br>
+                    <br>
+                    東京都の離島である小笠原では3年間、道路工事などのインフラ工事の作業員を務めていました。<br>
+                    <br>
+                    その前は15年近く広告のデザイナー職にあり、マクドナルドの商品デザイン（ロゴ、POPなど）や各種広告を作っていました。</p>
+                </div>
+                <div id="about3" class="innerInfo">
+                    <h2>PHILOSOPHY</h2>
+                    <p class="profile">私は今までの殆どの人生において、物づくりに関わる仕事に就いてきました。私は物づくりのプロセスを考えることが好きです。デザインも、道路も、WEBも段取り良く必要な物を必要な場所に配置して全体を整えることで良いものが生まれます。<br>
+                    <br>
+                    転職の回数は人よりも多いかもしれませんが、全てが繋がって今の私があります。</p>
+                </div>
+                <div id="markerArea">
+                    <div class="markerBox flex flexRow">
+                        <span class="marker selectedMarker"></span>
+                        <span class="marker"></span>
+                        <span class="marker"></span>
+                    </div>
+                </div>
+                <p class="prevBtn">&lt;&lt;&nbsp;</p>
+                <p class="nextBtn">&nbsp;&gt;&gt;</p>
+            </div>
+        </div>
+        <div class="boxFlame aboutBoxFlame"></div>
+    </section>
+
+    <section id="skillsBox">
+        <div class="contentsWrapper flex skillsCon">
+            <div class="skillParam">
+                <div class="graphArea">
+                    <p class="graphNum">90<span>%</span></p>
+                    <svg class="sv1"><circle class="cr1" r="76" cx="80" cy="80" data-0-bottom-bottom="stroke-dasharray: 0 471; opacity: 0;" data--40p-bottom-top="stroke-dasharray: 424 47; opacity: 1;"></circle></svg>
+                </div>
+                <p class="aCenter">HTML</p>
+            </div>
+            <div class="skillParam">
+                <div class="graphArea">
+                    <p class="graphNum">90<span>%</span></p>
+                    <svg class="sv2"><circle class="cr2" r="76" cx="80" cy="80" data-0-bottom-bottom="stroke-dasharray: 0 471; opacity: 0;" data--40p-bottom-top="stroke-dasharray: 424 47; opacity: 1;"></circle></svg>
+                </div>
+                <p class="aCenter">CSS 3</p>
+            </div>
+            <div class="skillParam">
+                <div class="graphArea">
+                    <p class="graphNum">65<span>%</span></p>
+                    <svg class="sv2"><circle class="cr3" r="76" cx="80" cy="80" data-0-bottom-bottom="stroke-dasharray: 0 471; opacity: 0;" data--40p-bottom-top="stroke-dasharray: 307 164; opacity: 1;"></circle></svg>
+                </div>
+                <p class="aCenter">JavaScript</p>
+            </div>
+            <div class="skillParam">
+                <div class="graphArea">
+                    <p class="graphNum">45<span>%</span></p>
+                    <svg class="sv2"><circle class="cr4" r="76" cx="80" cy="80" data-0-bottom-bottom="stroke-dasharray: 0 471; opacity: 0;" data--40p-bottom-top="stroke-dasharray: 212 259; opacity: 1;"></circle></svg>
+                </div>
+                <p class="aCenter">Node.js</p>
+            </div>
+            <div class="expParam">
+                <div class="expParamInner">
+                    <span class="expParamBar1" data-0-bottom-bottom="width:10px;" data--20p-bottom-top="width:130px;"></span>
+                    <span class="expParamBar2" data-0-bottom-bottom="width:10px;" data--20p-bottom-top="width:80px;"></span>
+                    <span class="expParamBar3" data-0-bottom-bottom="width:10px;" data--20p-bottom-top="width:210px;"></span>
+                    <p class="expText">Web Design<br>
+                    Programming<br>
+                    Graphic Design
+                    </p>
+                    <div class="expBackImg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="boxFlame skillsBoxFlame"></div>
+    </section>
+
+    <section id="worksBox">
+        <div class="modal1 clear">
+            <div class="modalClose1 right"></div>
+            <div class="resumeBox flex">
+                <div class="resumeImg">
+                    <a href="https://www.ntt.co.jp/nttnews/" target="_blanc">
+                        <img src="img/ntt_mochi_top.png" alt="NTT持株会社ニュースリリーストップページ">
+                    </a>
+                </div>
+                <div class="resumeTxt">
+                    <h3>NTT持株会社ニュースリリース</h3>
+                    <table>
+                        <tr>
+                            <th>担　　当</th>
+                            <td>ディレクター</td>
+                        </tr>
+                        <tr>
+                            <th>期　　間</th>
+                            <td>2年</td>
+                        </tr>
+                        <tr>
+                            <th>業務内容</th>
+                            <td>運用、保守、メンバーアサイン、など</td>
+                        </tr>
+                    </table>
+                    <p class="resumePresent">ディレクター1名、制作3名のチームで、ディレクターとしてニュースリリースサイトNTT持株会社のニュースリリースサイトを担当しました。担当業務はコンテンツの制作指示やクオリティーコントロール、スタッフアサインなど。任期中に上記サイトにてレスポンシブ化、サーバ更改を成功させ、<a href="https://www.ntt.co.jp/news2019/1905jnxp/hhqz190510.html" target="_blanc">決算ページ（参照：2018年度決算）</a>および<a href="https://www.ntt.co.jp/kaiken/2019/190510.html" target="_blanc">社長会見ページ（参照：2018年度決算）</a>に関しては自らデザインとコーディング（レスポンシブ対応）を担当しました。<br>
+                    また、作業効率を上げるために社内向け制作・運用マニュアルの整備（紙ベースのものをHTML化）を自主的に進め、評価されました。</p>
+                    <p class="resumeLinkBtn"><a href="https://www.ntt.co.jp/nttnews/" target="_blank">サイトを見る</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="modal2 clear">
+            <div class="modalClose2 right"></div>
+            <div class="resumeBox flex">
+                <div class="resumeImg">
+                    <a href="https://www.ntt-west.co.jp/news/" target="_blanc"><img src="img/ntt_west_top.png" alt="NTT西日本ニュースリリーストップページ"></a>
+                </div>
+                <div class="resumeTxt">
+                    <h3>NTT西日本ニュースリリース</h3>
+                    <table>
+                        <tr>
+                            <th>担　　当</th>
+                            <td>ディレクター</td>
+                        </tr>
+                        <tr>
+                            <th>期　　間</th>
+                            <td>2年</td>
+                        </tr>
+                        <tr>
+                            <th>業務内容</th>
+                            <td>運用、保守、メンバーアサイン、など</td>
+                        </tr>
+                    </table>
+                    <p class="resumePresent">ディレクター1名、制作3名のチームで、ディレクターとしてニュースリリースサイトNTT西日本のニュースリリースサイトを担当しました。担当業務はコンテンツの制作指示やクオリティーコントロール、スタッフアサインなど。任期中に上記サイトにてレスポンシブ化、サーバ更改を成功させ、<a href="https://www.ntt-west.co.jp/news/1905ybso/krtd190510.html" target="_blanc">決算ページ（参照：2018年度決算）</a>に関しては自らデザインとコーディング（レスポンシブ対応）を担当しました。<br>
+                    また、作業効率を上げるために社内向け制作・運用マニュアルの整備（紙ベースのものをHTML化）を自主的に進め、評価されました。</p>
+                    <p class="resumeLinkBtn"><a href="https://www.ntt-west.co.jp/news/" target="_blank">サイトを見る</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="modal3 clear">
+            <div class="modalClose3 right"></div>
+            <div class="resumeBox flex">
+                <div class="resumeImg">
+                    <a href="http://luminax.co.jp/" target="_blanc"><img src="img/hiro_top.png" alt="株式会社宏昇製作所トップページ"></a>
+                </div>
+                <div class="resumeTxt">
+                    <h3>家具販売会社HP制作</h3>
+                    <table>
+                        <tr>
+                            <th>担　　当</th>
+                            <td>ディレクター／デザイナー／コーダー</td>
+                        </tr>
+                        <tr>
+                            <th>制作期間</th>
+                            <td>2週間</td>
+                        </tr>
+                        <tr>
+                            <th>作業内容</th>
+                            <td>デザイン提案、デザイン、コーディング、動作テストなど</td>
+                        </tr>
+                        <tr>
+                            <th>スキル</th>
+                            <td>HTML3, CSS3, JavaScript</td>
+                        </tr>
+                    </table>
+                    <p class="resumePresent">企業サイトのデザインと制作を請け負いました。プレゼンからデザイン、コーディング、納品まで一人で行い、コーディングからテスト、納品までにかかった期間はおよそ2週間でした。<br>
+                    お客様からは展示会などでカタログとして機能するサイトをとのオーダーをいただき、シングルページデザインに商品の価格リストとスライドショーの機能を実装しました。</p>
+                    <p class="resumeLinkBtn"><a href="http://luminax.co.jp/" target="_blank">サイトを見る</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="modal4 clear">
+            <div class="modalClose4 right"></div>
+            <div class="resumeBox flex">
+                <div class="resumeImg">
+                    <a href="https://shinfujita.github.io/" target="_blanc"><img src="img/ownpage_top.png" alt="自己紹介サイトイメージ"></a>
+                </div>
+                <div class="resumeTxt">
+                    <h3>自己紹介サイト</h3>
+                    <table>
+                        <tr>
+                            <th>担　　当</th>
+                            <td>ディレクター、デザイナー、コーダー</td>
+                        </tr>
+                        <tr>
+                            <th>制作期間</th>
+                            <td>1ヶ月</td>
+                        </tr>
+                        <tr>
+                            <th>作業内容</th>
+                            <td>デザイン提案、デザイン、コーディング、動作テストなど</td>
+                        </tr>
+                        <tr>
+                            <th>スキル</th>
+                            <td>HTML3, CSS3, JavaScript</td>
+                        </tr>
+                    </table>
+                    <p class="resumePresent">現在ご覧いただいている自己紹介サイトです。レスポンシブのシングルページデザインで、自分のスキルレベルと作業スピードの確認のために作成しました。<br>
+                    ハンバーガーメニュー、プロフィールのスライダー、モーダル画面の表示・非表示の切り替えに自分で記述したJavascriptを使用しています。</p>
+                    <p class="resumeLinkBtn"><a href="https://shinfujita.github.io/" target="_blank">サイトを見る</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="modal5 clear">
+            <div class="modalClose5 right"></div>
+            <div class="resumeBox flex">
+                <div class="resumeImg">
+                    <a href="pdf/portfolio_2020.pdf" target="_blanc"><img src="img/yamaha.png" alt="紙ベースの作品紹介"></a>
+                </div>
+                <div class="resumeTxt">
+                    <h3>過去の広告デザイン</h3>
+                    <table>
+                        <tr>
+                            <th>担　　当</th>
+                            <td>デザイン・ディレクション</td>
+                        </tr>
+                        <tr>
+                            <th>期　　間</th>
+                            <td>2001年〜現在</td>
+                        </tr>
+                        <tr>
+                            <th>業務内容</th>
+                            <td>広告のデザインおよびディレクション。ファーストフードの商品ロゴ・店頭POP・ポスターなどのディレクションなど</td>
+                        </tr>
+                    </table>
+                    <p class="resumePresent">過去に担当した広告デザインの一部の作品をPDFにまとめました。<br>
+                    作品のほとんどは10年以上前に制作したものがほとんどです。シンプルでシャープな質感のデザインが得意です。<br>
+                    下記のリンクよりダウンロードできます。</p>
+                    <p class="resumeLinkBtn"><a href="pdf/portfolio_2020.pdf" target="_blank">PDF</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="contentsWrapper flex worksCon">
+            <div class="workBoxFlame">
+                <div id="workBTN1" class="workBoxInner">
+                    <img src="img/ntt_logo.png" alt="NTT西日本ニュースリリースHP紹介">
+                    <div class="workBoxReInner">
+                        <p class="workBtnShosai">MORE INFOMATION</p>
+                    </div>
+                </div>
+            </div>
+            <div class="workBoxFlame">
+                <div id="workBTN2" class="workBoxInner">
+                    <img src="img/ntt_west_logo.png" alt="NTT西日本ロゴ">
+                    <div class="workBoxReInner">
+                        <p class="workBtnShosai">MORE INFOMATION</p>
+                    </div>
+                </div>
+            </div>
+            <div class="workBoxFlame">
+                <div id="workBTN3" class="workBoxInner">
+                    <img src="img/LUMINAX_logo.png" alt="株式会社株式会社宏昇製作所HP紹介">
+                    <div class="workBoxReInner">
+                        <p class="workBtnShosai">MORE INFOMATION</p>
+                    </div>
+                </div>
+            </div>
+            <div class="workBoxFlame">
+                <div id="workBTN4" class="workBoxInner">
+                    <img src="img/ownpage_top.png" alt="ポートフォリオ用HP紹介">
+                    <div class="workBoxReInner">
+                        <p class="workBtnShosai">MORE INFOMATION</p>
+                    </div>
+                </div>
+            </div>
+            <div class="workBoxFlame">
+                <div id="workBTN5" class="workBoxInner">
+                    <img src="img/yamaha.png" alt="紙ベースの作品紹介">
+                    <div class="workBoxReInner">
+                        <p class="workBtnShosai">MORE INFOMATION</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="boxFlame worksBoxFlame"></div>
+    </section>
+
+    <section id="contactBox">
+        <div class="contentsWrapper flex contactCon">
+            <div class="snsArea"><a href="https://twitter.com/shin4522" rel="noopener" target="_blank"></a></div>
+            <div class="snsArea"><a href="https://github.com/shinfujita" rel="noopener" target="_blank"></a></div>
+            <div class="snsArea"><a href="https://www.facebook.com/shin.fujita1" rel="noopener" target="_blank"></a></div>
+            <div class="snsArea"><a href="mailto:shin4522@gmail.com" rel="noopener"></a></div>
+        </div>
+        <div class="boxFlame contactBoxFlame"></div>
+        </section>
+
+    <footer>
+        <p class="footerCopy">Copyright &copy; 2020 Shin Fujita. All Rights Reserved.</p>
+    </footer>
+    <script src="https://shinfujita.github.io/js/skrollr.js"></script>
+    <script src="https://shinfujita.github.io/js/main.js"></script>
+    <script type="text/javascript">
+        skrollr.init();
+      </script>
+</body>
+</html>
